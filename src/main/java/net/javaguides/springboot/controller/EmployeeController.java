@@ -20,7 +20,7 @@ import net.javaguides.springboot.exception.ResourceNotFoundException;
 import net.javaguides.springboot.model.Employee;
 import net.javaguides.springboot.repository.EmployeeRepository;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://dpg-cfll25hgp3ju5h4p4fc0-a.singapore-postgres.render.com:5432")
 @RestController
 @RequestMapping("/api/v1/")
 public class EmployeeController {
